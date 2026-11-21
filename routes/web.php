@@ -6,7 +6,8 @@ use App\Http\Controllers\StockController;
 use App\Http\Controllers\TransactionController;
 /*
 |--------------------------------------------------------------------------
-| Web Routes
+| Web 
+Routes
 |--------------------------------------------------------------------------
 |
 | Here is where you can register web routes for your application. These
@@ -21,3 +22,5 @@ Route::get('/', function () {
 Route::resource('products', ProductController::class);
 Route::resource('stocks', StockController::class);
 Route::resource('transactions', TransactionController::class);
+
+// Pembaruan praktikum modul 3 - alur kerja harian Git
